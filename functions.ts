@@ -35,9 +35,15 @@ console.log(fav_num)
 
 
 
+const names:string[] = ["Alice" , "Bob" , "Eva"];
 
+names.forEach(function (name) {
+    console.log(name.replace(name , "Hilal").toUpperCase())
+})
 
-
+names.forEach((name) => {
+    console.log(name.toUpperCase())
+})
 
 
 

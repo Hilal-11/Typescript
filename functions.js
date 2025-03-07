@@ -18,3 +18,10 @@ function getFavoriteNumber() {
 }
 var fav_num = getFavoriteNumber();
 console.log(fav_num);
+var names = ["Alice", "Bob", "Eva"];
+names.forEach(function (name) {
+    console.log(name.replace(name, "Hilal").toUpperCase());
+});
+names.forEach(function (name) {
+    console.log(name.toUpperCase());
+});
