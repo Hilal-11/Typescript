@@ -7,3 +7,12 @@ console.log(username);
 console.log(user_id);
 console.log(isMinor);
 console.log(notype);
+var person = {
+    name: "Hilal",
+    id: 1010,
+    address: "lolab",
+    course: "Computer Science",
+    email: "Hilalahmadcodedev1232gmail.com",
+    contect: 999 - 424 - 633
+};
+console.log(person);
