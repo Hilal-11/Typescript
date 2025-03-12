@@ -77,7 +77,11 @@ console.log(favNum)
 
 
 
+const list:string[] = ["Apple" , "Banana" , "Mangoo" , "papeta"]
 
+list.forEach((item: string) => {
+    return item.toUpperCase()
+})
 
 
 
