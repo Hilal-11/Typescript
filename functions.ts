@@ -75,13 +75,62 @@ console.log(favNum)
 // add(6)
 
 
-
-
 const list:string[] = ["Apple" , "Banana" , "Mangoo" , "papeta"]
 
 list.forEach((item: string) => {
     return item.toUpperCase()
 })
+
+
+
+//  first issue
+
+// function getValue(myval: number){
+//     if(myval > 5) {
+//         return true
+//     }
+//     else "200 Ok"
+// }
+
+const greeting2 = (s: string):string => {
+    return "Hello "+ s;
+}
+
+greeting2("Hilal")
+
+
+const data = [10 , 45 , 71 , 90];
+// const data = ["A" , "B" , "C" , "D"];
+
+
+data.map((item ) => {
+    return "Hero is "+item;
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
